@@ -3,7 +3,7 @@
 ## What is IBM App Connect?
 IBM App Connect is a solution for connecting applications, data, and APIs, whether they are in the cloud or on-premises. 
 
-**IBM Aspera Product Page:** [Click here](https://www.ibm.com/products/app-connect)
+**IBM App Connect Enterprise Product Page:** [Click here](https://www.ibm.com/products/app-connect)
 
 
 ## Lab Abstracts

@@ -12,15 +12,19 @@ IBM App Connect is a solution for connecting applications, data, and APIs, wheth
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Simple REST API](ace_onprem/lab1_customer_database_restapi/README.md)       | Build and test a Customer REST API.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Discovery connectors](ace_onprem/lab5_discovery_connector/README.md)       | **COMING SOON** - Using ACE Discovery Connectors
+| [ESQL Experience](ace_onprem/lab6_compute_node/README.md)       | **COMING SOON** - Using ACE Compute Node to transfrom XML to JSON.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [ESQL Experience](ace_onprem/lab6_compute_node/README.md)       | **COMING SOON** - Using ACE Compute Node to transfrom XML to JSON. <br>
+| [JavaCompute Experience](ace_onprem/lab7_javacompute_node/README.md)       | **COMING SOON** - Using ACE JavaCompute Node to transfrom XML to JSON.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [JavaCompute Experience](ace_onprem/lab7_javacompute_node/README.md)       | **COMING SOON** - Using ACE JavaCompute Node to transfrom XML to JSON. <br>
-|-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Mapping Node Experience](ace_onprem/lab8_mapping_node/README.md)       | **COMING SOON** - Using Mapping Node to transform XML to JSON. <br>
+| [Mapping Node Experience](ace_onprem/lab8_mapping_node/README.md)       | **COMING SOON** - Using Mapping Node to transform XML to JSON.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Change Data Capture Node](ace_onprem/lab2_cdc_postgres/README.md)       | Using Change Data Capture to retrieve database records.
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| [Discovery connectors](ace_onprem/lab5_discovery_connector/README.md)       | **COMING SOON** - Using ACE Discovery Connectors
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| [Context Trees](ace_onprem/labx_context_trees/README.md)       | **COMING SOON** Using Context Trees.
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| [Global Cache](ace_onprem/global_cache/README.md)       | **COMING SOON** Using Embedded global cache
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Kafka Event Serialization](ace_onprem/lab3_avro_kafka/README.md)       | Data serialization using Kafka Nodes with Avro schema.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|

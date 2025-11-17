@@ -54,3 +54,80 @@ Click Import button. <br>
 That should import ValidateJSON.msgflow. Minimize the side Tutorial pane. <br>
 ![alt text](./images/image-6.png)
 
+
+## 4. Log Nodes <a name="log-nodes"></a>
+
+Now add Log nodes into the Message Flow canvas. Drag Log Node(s) into the Flow Canvas as below. <br>
+![alt text](./images/image-7.png)
+
+
+Rewire the nodes as below. <br>
+![alt text](./images/image-8.png)
+
+
+### 4.1. Configure Log Node 1 <a name="log-node1-configure"></a>
+
+![alt text](./images/image-9.png)
+
+![alt text](./images/image-10.png)
+
+![alt text](./images/image-11.png)
+
+Click on the Basic Tab, and Configure button. <br>
+For the Message detail, enter "Received an order in flow: ", and add Timestamp, Flow Name, Application fields as below. <br>
+![alt text](./images/image-12.png)
+
+
+Add timestamp. <br>
+![alt text](./images/image-13.png)
+
+Add "Flow Name", and "Application Name". <br>
+![alt text](./images/image-14.png)
+
+Add a custom field "Order", click "Add property". <br>
+![alt text](./images/image-15.png)
+
+Enter Order, and type String...then, click "Edit Mappings". <br>
+
+![alt text](./images/image-16.png)
+
+![alt text](./images/image-17.png)
+
+Select Order object under Http Input > Payload > Order segment as below. <br>
+![alt text](./images/image-18.png)
+
+Save, and close the window. <br>
+![alt text](./images/image-19.png)
+
+Now, you can see that the Log node is configured with JSONata expression. <br>
+![alt text](./images/image-20.png)
+
+<br>
+
+
+### 4.2. Configure Log Node 2 <a name="log-node2-configure"></a>
+
+We will add ExceptionList tree object. <br>
+
+Click on Log Node 2, and Map Inputs tab. <br>
+![alt text](./images/image-21.png)
+
+Add **ExceptionList**. <br>
+![alt text](./images/image-22.png)
+
+Click **OK**.<br>
+![alt text](./images/image-23.png)
+
+Now, click on the Basic tab, then Configure button. <br>
+![alt text](./images/image-24.png)
+
+For the "Message detail", enter "Error occurred while validating the mnessage in flow: <br>
+Add "Flow Name", "Application Name" from the Flow Details segment. <br>
+Also, add Property "ErrorMessage" and copy/paste the below JSONata expression into the value textbox. <br>
+```
+{{$map($mappingInput_ExceptionList.Insert, function($v) { $v.Text })}}
+```
+![alt text](./images/image-25.png)
+
+Hit the Save the configuration. <br><br>
+

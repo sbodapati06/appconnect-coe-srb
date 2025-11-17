@@ -1,4 +1,4 @@
-# lab3 - How to use a Change Data Capture node in IBM App Connect to stream changes from a Postgres Database.
+# How to use a Change Data Capture node in IBM App Connect to stream changes from a Postgres Database.
 
 ---
 

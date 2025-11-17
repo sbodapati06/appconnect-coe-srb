@@ -1,4 +1,4 @@
-# lab4 - Using Avro based schemas with Kafka Nodes
+# Using Avro based schemas with Kafka Nodes
 
 ---
 

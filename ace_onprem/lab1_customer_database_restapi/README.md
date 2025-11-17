@@ -1,4 +1,4 @@
-# lab1 - Customer Database REST API (OpenAPI 3.0)
+# Customer Database REST API (OpenAPI 3.0)
 
 
 ---

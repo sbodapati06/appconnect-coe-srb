@@ -1,7 +1,6 @@
 # Using Avro based schemas with Kafka Nodes
 
 ---
-
 # Table of Contents
 - [1. Introduction](#introduction)
 - [2. Workshop Environments ](#workshop-env)
@@ -19,7 +18,6 @@
 - [8. Using Avro schema ](#using-avro)
 - [9. Redeploy Policy and Application ](#redeploy)
 - [10. Testing Avro ](#testing-avro)
-
 ---
 
 <br>

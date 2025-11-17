@@ -10,13 +10,13 @@ IBM App Connect is a solution for connecting applications, data, and APIs, wheth
 
 |  Subject                            | Description                                            |                                                               
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Build a REST API](ace_onprem/lab1_customer_database_restapi/README.md)       | Build and test a Customer REST API.
+| [Simple REST API](ace_onprem/lab1_customer_database_restapi/README.md)       | Build and test a Customer REST API.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Change Data Capture](ace_onprem/lab2_cdc_postgres/README.md)       | Using Change Data Capture to retrieve database records.
+| [Change Data Capture Node](ace_onprem/lab2_cdc_postgres/README.md)       | Using Change Data Capture to retrieve database records.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Avro schemas serialization to Kafka](ace_onprem/lab3_avro_kafka/README.md)       | Data serialization using Kafka Nodes with Avro schema.
+| [Kafka Nodes](ace_onprem/lab3_avro_kafka/README.md)       | Data serialization using Kafka Nodes with Avro schema.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Unit testing](ace_onprem/lab4_unit_testing/README.md)       | Unit testing App Connect Message flows.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Generate Activity Logs](ace_onprem/lab9_log_node/README.md)       | Using Log node in ACE Message flow to genrate Activity Logs.
+| [Activity Logs](ace_onprem/lab9_log_node/README.md)       | Using Log node in ACE Message flow to genrate Activity Logs.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|

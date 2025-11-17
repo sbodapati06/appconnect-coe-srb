@@ -2,7 +2,6 @@
 
 
 ---
-
 # Table of Contents
 - [1. Introduction](#introduction)
 - [2. App Connect Toolkit](#toolkit)
@@ -15,12 +14,12 @@
   * [6a. Test valid message ](#test-valid-message)
   * [6b. Test invalid message ](#test-invalid-message)
 - [7. Summary ](#summary)
-
 ---
 
 <br>
 
 ## 1. Introduction <a name="introduction"></a>
+
 In this lab, you will explore App Connect Enterprise (ACE) Toolkit Log Node. We have introduced Log Node in ACE v12.0.11.x, this node allows you to write log entries to the Activity log. <br>
 
 
@@ -171,7 +170,7 @@ Close the window.<br>
 Open the **Web UI** for the **Integration Server**. <br>
 ![alt text](./images/image-35.png)
 
-You will get **"Your connection is not private"**, click **Advanced** --> **Proceed**. <br>
+You will get **"Your connection is not private"**, click **Advanced** and **Proceed**. <br>
 
 Click on the Application, then click on the Message Flow "ValidateJSON". <br>
 ![alt text](./images/image-36.png)

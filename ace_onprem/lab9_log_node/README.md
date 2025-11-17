@@ -124,10 +124,100 @@ Now, click on the Basic tab, then Configure button. <br>
 For the "Message detail", enter "Error occurred while validating the mnessage in flow: <br>
 Add "Flow Name", "Application Name" from the Flow Details segment. <br>
 Also, add Property "ErrorMessage" and copy/paste the below JSONata expression into the value textbox. <br>
+
 ```
 {{$map($mappingInput_ExceptionList.Insert, function($v) { $v.Text })}}
 ```
+
 ![alt text](./images/image-25.png)
 
 Hit the Save the configuration. <br><br>
 
+
+## 5. Create Integration Server TEST_SERVER <a name="create-is"></a>
+
+Follow the screenshots. <br>
+![alt text](./images/image-28.png)
+
+Click "Finish". <br>
+![alt text](./images/image-29.png)
+<br>
+
+## 6. Flow Exerciser Testing <a name="testing"></a>
+
+Start the Flow Exerciser per screenshots below. <br>
+![alt text](./images/image-27.png)
+
+![alt text](./images/image-30.png)
+
+![alt text](./images/image-31.png)
+
+<br>
+
+
+### 6a. Test valid message <a name="test-valid-message"></a>
+
+Click "Send a message to the flow". <br>
+
+![alt text](./images/image-32.png)
+
+select "ValidationPaass" input message, and click "Send". <br>
+![alt text](./images/image-33.png)
+
+Check the response. <br>
+![alt text](./images/image-34.png)
+
+Close the window.<br>
+
+Open the **Web UI** for the **Integration Server**. <br>
+![alt text](./images/image-35.png)
+
+You will get **"Your connection is not private"**, click **Advanced** and **Proceed**. <br>
+
+Click on the Application, then click on the Message Flow "ValidateJSON". <br>
+![alt text](./images/image-36.png)
+
+Now click on the **"Activity Log"**. <br>
+![alt text](./images/image-37.png)
+
+Now, click on **"Fetch actitivity log"** <br>
+![alt text](./images/image-38.png)
+
+Notice the Order was validated successfully and a log entry has been created as well. <br>
+![alt text](./images/image-39.png)
+
+
+
+### 6b. Test invalid message <a name="test-invalid-message"></a>
+
+Go back to the Toolkit and send Invalid JSON message. <br>
+![alt text](./images/image-40.png)
+
+
+You should receive "The input message FAILED validation". This is because the price value is a String instead of integer. <br>
+![alt text](./images/image-41.png)
+
+Now, lets go back to the **Integration Server**'s **Web UI**, and refresh the Activity log. <br>
+
+You should see the Log node's entry "Error occurred while validating the message flow". <br>
+![alt text](./images/image-42.png)
+
+<br><br>
+
+
+## 7. Summary <a name="summary"></a>
+
+You can output the Log node generated entries into the Console log as well. You need to update the Integration Server's server.conf.yaml and restart the Integration server to be able to pickup the changes. <br>
+
+```
+ActivityLog:
+  ActivityLogTemplate:
+    enabled: true
+    consoleLog: false
+    consoleLogFormat: 'text'
+```
+
+Congratulations! You have successfully added Log node into your message flow and observed the Log entries in the Web UI's Activity log. 
+
+
+<br>

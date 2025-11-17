@@ -22,7 +22,7 @@ IBM App Connect is a solution for connecting applications, data, and APIs, wheth
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Change Data Capture Node](ace_onprem/lab2_cdc_postgres/README.md)       | Using Change Data Capture to retrieve database records.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Kafka Nodes](ace_onprem/lab3_avro_kafka/README.md)       | Data serialization using Kafka Nodes with Avro schema.
+| [Kafka Event Serialization](ace_onprem/lab3_avro_kafka/README.md)       | Data serialization using Kafka Nodes with Avro schema.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Unit testing](ace_onprem/lab4_unit_testing/README.md)       | Unit testing App Connect Message flows.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|

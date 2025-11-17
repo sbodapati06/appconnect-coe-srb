@@ -14,11 +14,11 @@ IBM App Connect is a solution for connecting applications, data, and APIs, wheth
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Discovery connectors](ace_onprem/lab5_discovery_connector/README.md)       | **COMING SOON** - Using ACE Discovery Connectors
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [ESQL](ace_onprem/lab6_compute_node/README.md)       | **COMING SOON** - Using ACE Compute Node to transfrom XML to JSON. <br>
+| [ESQL Experience](ace_onprem/lab6_compute_node/README.md)       | **COMING SOON** - Using ACE Compute Node to transfrom XML to JSON. <br>
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [JavaCompute](ace_onprem/lab7_javacompute_node/README.md)       | **COMING SOON** - Using ACE JavaCompute Node to transfrom XML to JSON. <br>
+| [JavaCompute Experience](ace_onprem/lab7_javacompute_node/README.md)       | **COMING SOON** - Using ACE JavaCompute Node to transfrom XML to JSON. <br>
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
-| [Mapping Node](ace_onprem/lab8_mapping_node/README.md)       | **COMING SOON** - Using Mapping Node to transform XML to JSON. <br>
+| [Mapping Node Experience](ace_onprem/lab8_mapping_node/README.md)       | **COMING SOON** - Using Mapping Node to transform XML to JSON. <br>
 |-----------------------------|------------------------------------------------------------------------------------------------------------|
 | [Change Data Capture Node](ace_onprem/lab2_cdc_postgres/README.md)       | Using Change Data Capture to retrieve database records.
 |-----------------------------|------------------------------------------------------------------------------------------------------------|

@@ -126,7 +126,7 @@ Add "Flow Name", "Application Name" from the Flow Details segment. <br>
 Also, add Property "ErrorMessage" and copy/paste the below JSONata expression into the value textbox. <br>
 
 ```
-{{$map($mappingInput_ExceptionList.Insert, function($v) {$v.Text})}}
+"{{$map($mappingInput_ExceptionList.Insert, function($v) {$v.Text})}}"
 ```
 <br>
 
